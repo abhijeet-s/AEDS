@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Component id="lblCustomerPhoneNumber" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblEmailAddress" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblCustomerName" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblServiceDescription" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblServiceDate" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblOilStatus" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblEngineStatus" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblBatteryStatus" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblMiles" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblCarModel" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblCarMake" alignment="0" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="66" pref="66" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="txtEmailAddress" alignment="1" pref="212" max="32767" attributes="0"/>
+                  <Component id="txtCustomerPhoneNumber" alignment="1" max="32767" attributes="0"/>
+                  <Component id="txtCustomerName" alignment="1" max="32767" attributes="0"/>
+                  <Component id="txtCarModel" alignment="0" max="32767" attributes="0"/>
+                  <Component id="txtMiles" alignment="0" max="32767" attributes="0"/>
+                  <Component id="txtBatteryStatus" alignment="0" max="32767" attributes="0"/>
+                  <Component id="txtEngineStatus" alignment="0" max="32767" attributes="0"/>
+                  <Component id="txtOilStatus" alignment="0" max="32767" attributes="0"/>
+                  <Component id="txtServiceDate" alignment="0" max="32767" attributes="0"/>
+                  <Component id="txtServiceDescription" alignment="0" max="32767" attributes="0"/>
+                  <Component id="txtCarMake" alignment="0" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="69" max="-2" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="137" max="-2" attributes="0"/>
+              <Component id="btnLog" min="-2" pref="106" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="txtCarMake" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblCarMake" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="txtCarModel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblCarModel" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="txtMiles" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblMiles" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="13" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="txtBatteryStatus" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblBatteryStatus" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="txtEngineStatus" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblEngineStatus" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="txtOilStatus" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblOilStatus" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="txtServiceDate" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblServiceDate" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="txtServiceDescription" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblServiceDescription" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="txtCustomerName" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblCustomerName" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="txtCustomerPhoneNumber" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblCustomerPhoneNumber" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="txtEmailAddress" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblEmailAddress" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="btnLog" min="-2" pref="34" max="-2" attributes="0"/>
+              <EmptySpace pref="50" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="lblCarMake">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Car Make"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblEmailAddress">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Email Address"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtEmailAddress">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblCarModel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Car Model"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtCarMake">
+      <AccessibilityProperties>
+        <Property name="AccessibleContext.accessibleName" type="java.lang.String" value=""/>
+      </AccessibilityProperties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblMiles">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Miles"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtCarModel">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblBatteryStatus">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Battery Status"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtMiles">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtMilesActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblEngineStatus">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Engine Status"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtBatteryStatus">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtBatteryStatusActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblOilStatus">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Oil Status"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtEngineStatus">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblServiceDate">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Service Date"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtServiceDate">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblServiceDescription">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Service Description"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtServiceDescription">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtCustomerName">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblCustomerName">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Customer Name"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtCustomerPhoneNumber">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblCustomerPhoneNumber">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Customer Phone Number"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtOilStatus">
+    </Component>
+    <Component class="javax.swing.JButton" name="btnLog">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Log Data"/>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.BevelBorderInfo">
+            <BevelBorder>
+              <Color PropertyName="highlightOuter" blue="0" green="c8" id="orange" palette="1" red="ff" type="palette"/>
+              <Color PropertyName="highlightInner" blue="0" green="c8" id="orange" palette="1" red="ff" type="palette"/>
+              <Color PropertyName="shadowOuter" blue="0" green="c8" id="orange" palette="1" red="ff" type="palette"/>
+              <Color PropertyName="shadowInner" blue="0" green="c8" id="orange" palette="1" red="ff" type="palette"/>
+            </BevelBorder>
+          </Border>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnLogActionPerformed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>
