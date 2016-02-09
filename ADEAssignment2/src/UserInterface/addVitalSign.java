@@ -236,13 +236,14 @@ else if (age > 12 ){
 vitalSign.setStatus("Abnormal"); 
         else 
 vitalSign.setStatus("Normal");
+
         vitalSign.setBloodPressure(BP);
         vitalSign.setHeartRate(HR);
         vitalSign.setRespiratoryRate(RR);
         vitalSign.setWeight(W);
         vitalSign.setDate(txtDate.getText().trim());
         JOptionPane.showMessageDialog(null,"Vital Sign saved successfully");
-    }
+    
        txtBloodPressure.setText("");
        txtHeartRate.setText("");
        txtRespiratoryRate.setText("");
@@ -252,6 +253,7 @@ vitalSign.setStatus("Normal");
         
              }
         }
+}
             catch(Exception e)
         {
             if
