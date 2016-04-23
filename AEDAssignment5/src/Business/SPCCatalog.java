@@ -34,14 +34,14 @@ public class SPCCatalog {
  public SPCCatalog(MasterCatalog mstc, EmployeeDirectory employeeDirectory) {
   SPCCatalog = new ArrayList < SalesPersonComparator > ();
   int totalSalesAmount = 0;
-  SalesPersonComparator salesPersonSalesVolume = new SalesPersonComparator();
+  SalesPersonComparator salesPersonComparator = new SalesPersonComparator();
   for (Employee e: employeeDirectory.getEmployeeList()) {
    totalSalesAmount = 0;
    totalSalesAmount = mstc.getSalesPersonC(e);
    //add here
-   salesPersonSalesVolume = this.addSalesPerson();
-   salesPersonSalesVolume.setSalesPerson(e);
-   salesPersonSalesVolume.setTotalSales(totalSalesAmount);
+   salesPersonComparator = this.addSalesPerson();
+   salesPersonComparator.setSalesPerson(e);
+   salesPersonComparator.setTotalSales(totalSalesAmount);
   }
 
   Collections.sort(this.getSPCCatalog());

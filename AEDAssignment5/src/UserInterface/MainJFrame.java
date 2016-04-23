@@ -148,6 +148,7 @@ public class MainJFrame extends javax.swing.JFrame {
         boolean flag = false;
         business=Business.getInstance();
         for (UserAccount ua : business.getUserAccountDirectory().getUserAccountList()) {
+            System.out.println(ua.getUserName().toString()+ua.getPassword().toString());
             if (ua.getUserName().equals(userName) && ua.getPassword().equals(password)) {
                 if (ua.getRole().equalsIgnoreCase(UserAccount.ADMIN_ROLE)) {
                     userProcessContainer.removeAll();

@@ -44,6 +44,7 @@ public class Business {
     }
     
     private Business(){
+  
         userAccountDirectory = new UserAccountDirectory();
         employeeDirectory =  new EmployeeDirectory();
         customerCatalog = new CustomerCatalog();

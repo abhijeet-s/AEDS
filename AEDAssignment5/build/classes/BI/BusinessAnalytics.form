@@ -24,7 +24,7 @@
                   <Component id="btnTopSales" alignment="1" max="32767" attributes="0"/>
                   <Component id="btnMostPop" alignment="1" max="32767" attributes="0"/>
                   <Component id="btnAboveTarget" alignment="1" max="32767" attributes="0"/>
-                  <Component id="btnBelowTarget" alignment="1" pref="379" max="32767" attributes="0"/>
+                  <Component id="btnBelowTarget" alignment="1" pref="0" max="32767" attributes="0"/>
               </Group>
               <EmptySpace min="-2" pref="120" max="-2" attributes="0"/>
           </Group>
@@ -38,9 +38,9 @@
     <DimensionLayout dim="1">
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" alignment="0" attributes="0">
-              <EmptySpace min="-2" pref="88" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="82" max="-2" attributes="0"/>
               <Component id="btnTopSales" min="-2" max="-2" attributes="0"/>
-              <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
               <Component id="btnMostPop" min="-2" max="-2" attributes="0"/>
               <EmptySpace min="-2" pref="32" max="-2" attributes="0"/>
               <Component id="btnAboveTarget" min="-2" max="-2" attributes="0"/>

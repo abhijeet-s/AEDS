@@ -42,15 +42,18 @@ public class TopThree extends javax.swing.JPanel {
   dtm.setRowCount(0);
   int count = 0;
   for (SalesPersonComparator spc: SPCCatalog.getSPCCatalog()) {
+      
    if (count < 3) {
+       if (spc.getSalesPerson().getFirstName()!="Admin"){
        count++;
     Object row[] = new Object[4];
     row[0] = count;
     row[1] = spc.getSalesPerson().getFirstName()+ ' ' +spc.getSalesPerson().getLastName();
     row[2] = spc.getTotalSales();
     dtm.addRow(row);
+       }
    }
-   
+  
   }
  }
     /**
